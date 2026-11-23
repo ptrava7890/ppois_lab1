@@ -1,0 +1,8 @@
+if(WIN32)
+    set(platform Win32)
+else()
+    set(platform Posix)
+endif()
+file(GLOB sources CONFIGURE_DEPENDS UnitTest++/*.cpp UnitTest++/${platform}/*.cpp)
+add_library(UnitTestPP STATIC ${sources})
+target_include_directories(UnitTestPP PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
