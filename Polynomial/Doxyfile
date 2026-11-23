@@ -1,0 +1,9 @@
+PROJECT_NAME = "Многочлен от одной переменной"
+OUTPUT_LANGUAGE = Russian
+OUTPUT_DIRECTORY = docs
+INPUT = Polynomial.h Polynomial.cpp
+GENERATE_HTML = YES
+GENERATE_LATEX = NO
+HAVE_DOT = NO
+QUIET = YES
+WARN_IF_INCOMPLETE_DOC = NO

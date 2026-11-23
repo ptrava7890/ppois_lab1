@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.16)
+project(PolynomialLab LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+add_library(polynomial Polynomial.cpp)
+add_executable(polynomial_demo main.cpp)
+target_link_libraries(polynomial_demo PRIVATE polynomial)
+
+add_subdirectory(third_party/unittestpp)
+add_executable(polynomial_tests test.cpp)
+target_link_libraries(polynomial_tests PRIVATE polynomial UnitTestPP)
+enable_testing()
+add_test(NAME polynomial_tests COMMAND polynomial_tests)
