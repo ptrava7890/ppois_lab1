@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.18.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Многочлен от одной переменной: Класс Polynomial</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="codefolding.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Многочлен от одной переменной
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.18.0 -->
+<script type="text/javascript">
+let searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', codefold.init);
+</script>
+<script type="application/json" id="doxygen-config">
+{
+  "relPath": "",
+  "generateTreeView": true,
+  "searchEngine": true,
+  "serverBasedSearch": false,
+  "disableIndex": false,
+  "dynamicMenus": true,
+  "fullSidebar": false
+}
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<div id="main-nav-mobile">
+<div class="sm sm-dox"><input id="main-menu-state" type="checkbox"/>
+<label class="main-menu-btn" for="main-menu-state">
+<span class="main-menu-btn-icon"></span> Toggle main menu visibility</label>
+<span id="searchBoxPos1"></span>
+</div>
+</div><!-- main-nav-mobile -->
+<div id="main-nav">
+  <ul class="sm sm-dox" id="main-menu">
+    <li id="searchBoxPos2">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Поиск" accesskey="S"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+    </li>
+  </ul>
+</div><!-- main-nav -->
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded',() => { initNavTree('class_polynomial.html','','class_polynomial-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Класс Polynomial</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Многочлен с вещественными коэффициентами.  
+ <a href="#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_polynomial_8h_source.html">Polynomial.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a961dec5c0727f03e5273f74a345dfbb6" id="r_a961dec5c0727f03e5273f74a345dfbb6"><td class="memItemLeft"><a id="a961dec5c0727f03e5273f74a345dfbb6" name="a961dec5c0727f03e5273f74a345dfbb6"></a>
+&#160;</td><td class="memItemRight"><b>Polynomial</b> ()</td></tr>
+<tr class="memdesc:a961dec5c0727f03e5273f74a345dfbb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создаёт нулевой многочлен. <br /></td></tr>
+<tr class="memitem:ab44ca9d887fa7b5a71a6329bb1bece39" id="r_ab44ca9d887fa7b5a71a6329bb1bece39"><td class="memItemLeft"><a id="ab44ca9d887fa7b5a71a6329bb1bece39" name="ab44ca9d887fa7b5a71a6329bb1bece39"></a>
+&#160;</td><td class="memItemRight"><b>Polynomial</b> (std::initializer_list&lt; double &gt; coefficients)</td></tr>
+<tr class="memdesc:ab44ca9d887fa7b5a71a6329bb1bece39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создаёт многочлен по списку от свободного члена к старшему. <br /></td></tr>
+<tr class="memitem:a47b11ba01f414c5f344139fedada2fcf" id="r_a47b11ba01f414c5f344139fedada2fcf"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a47b11ba01f414c5f344139fedada2fcf">Polynomial</a> (std::size_t degree, std::vector&lt; double &gt; coefficients)</td></tr>
+<tr class="memdesc:a47b11ba01f414c5f344139fedada2fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создаёт многочлен по заданной степени и массиву коэффициентов.  <br /></td></tr>
+<tr class="memitem:af04eabb0fb25d8b6997de210e5ffdae1" id="r_af04eabb0fb25d8b6997de210e5ffdae1"><td class="memItemLeft">std::size_t&#160;</td><td class="memItemRight"><a class="el" href="#af04eabb0fb25d8b6997de210e5ffdae1">degree</a> () const</td></tr>
+<tr class="memitem:aba006a00b3bdfdfe4cf2486efbc39b74" id="r_aba006a00b3bdfdfe4cf2486efbc39b74"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#aba006a00b3bdfdfe4cf2486efbc39b74">operator[]</a> (std::size_t power) const</td></tr>
+<tr class="memitem:a42aebb7e468c993adcac986cb8dfbd96" id="r_a42aebb7e468c993adcac986cb8dfbd96"><td class="memItemLeft"><a id="a42aebb7e468c993adcac986cb8dfbd96" name="a42aebb7e468c993adcac986cb8dfbd96"></a>
+double&#160;</td><td class="memItemRight"><b>operator()</b> (double x) const</td></tr>
+<tr class="memdesc:a42aebb7e468c993adcac986cb8dfbd96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вычисляет значение в точке x по схеме Горнера. <br /></td></tr>
+<tr class="memitem:a2ceb25a673d4c03b346595639ade0981" id="r_a2ceb25a673d4c03b346595639ade0981"><td class="memItemLeft"><a id="a2ceb25a673d4c03b346595639ade0981" name="a2ceb25a673d4c03b346595639ade0981"></a>
+<a class="el" href="class_polynomial.html">Polynomial</a> &amp;&#160;</td><td class="memItemRight"><b>operator+=</b> (const <a class="el" href="class_polynomial.html">Polynomial</a> &amp;rhs)</td></tr>
+<tr class="memdesc:a2ceb25a673d4c03b346595639ade0981"><td class="mdescLeft">&#160;</td><td class="mdescRight">Прибавляет rhs к текущему многочлену. <br /></td></tr>
+<tr class="memitem:af89937a0177661ce28acabddc5a9cfaf" id="r_af89937a0177661ce28acabddc5a9cfaf"><td class="memItemLeft"><a id="af89937a0177661ce28acabddc5a9cfaf" name="af89937a0177661ce28acabddc5a9cfaf"></a>
+<a class="el" href="class_polynomial.html">Polynomial</a> &amp;&#160;</td><td class="memItemRight"><b>operator-=</b> (const <a class="el" href="class_polynomial.html">Polynomial</a> &amp;rhs)</td></tr>
+<tr class="memdesc:af89937a0177661ce28acabddc5a9cfaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вычитает rhs из текущего многочлена. <br /></td></tr>
+<tr class="memitem:acd98d02bf606b1f1cd7503d7e3b295a6" id="r_acd98d02bf606b1f1cd7503d7e3b295a6"><td class="memItemLeft"><a id="acd98d02bf606b1f1cd7503d7e3b295a6" name="acd98d02bf606b1f1cd7503d7e3b295a6"></a>
+<a class="el" href="class_polynomial.html">Polynomial</a> &amp;&#160;</td><td class="memItemRight"><b>operator*=</b> (const <a class="el" href="class_polynomial.html">Polynomial</a> &amp;rhs)</td></tr>
+<tr class="memdesc:acd98d02bf606b1f1cd7503d7e3b295a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Умножает текущий многочлен на rhs. <br /></td></tr>
+<tr class="memitem:aa0910e247308884f2d9a2411a8e74fe7" id="r_aa0910e247308884f2d9a2411a8e74fe7"><td class="memItemLeft"><a class="el" href="class_polynomial.html">Polynomial</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#aa0910e247308884f2d9a2411a8e74fe7">operator/=</a> (const <a class="el" href="class_polynomial.html">Polynomial</a> &amp;rhs)</td></tr>
+<tr class="memdesc:aa0910e247308884f2d9a2411a8e74fe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Записывает частное от деления уголком, отбрасывая остаток.  <br /></td></tr>
+<tr class="memitem:a205e40135b591849710fa4266da573f7" id="r_a205e40135b591849710fa4266da573f7"><td class="memItemLeft"><a id="a205e40135b591849710fa4266da573f7" name="a205e40135b591849710fa4266da573f7"></a>
+bool&#160;</td><td class="memItemRight"><b>operator==</b> (const <a class="el" href="class_polynomial.html">Polynomial</a> &amp;rhs) const</td></tr>
+<tr class="memdesc:a205e40135b591849710fa4266da573f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сравнивает соответствующие коэффициенты на точное равенство. <br /></td></tr>
+<tr class="memitem:ae18a8b90b505e7cf7030febf0b62066b" id="r_ae18a8b90b505e7cf7030febf0b62066b"><td class="memItemLeft"><a id="ae18a8b90b505e7cf7030febf0b62066b" name="ae18a8b90b505e7cf7030febf0b62066b"></a>
+bool&#160;</td><td class="memItemRight"><b>operator!=</b> (const <a class="el" href="class_polynomial.html">Polynomial</a> &amp;rhs) const</td></tr>
+<tr class="memdesc:ae18a8b90b505e7cf7030febf0b62066b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Проверяет различие многочленов. <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Многочлен с вещественными коэффициентами. </p>
+<p>Коэффициент с индексом i стоит при x в степени i. Например, <a class="el" href="class_polynomial.html" title="Многочлен с вещественными коэффициентами.">Polynomial</a>{2, -3, 1} задаёт x² − 3x + 2. Старшие нули удаляются. Для нулевого многочлена по соглашению степень равна 0. </p><dl class="section see"><dt>См. также</dt><dd><a class="el" href="_polynomial_8h.html#aac33bedbda644f6ecb7532cd03e0207f" title="Читает степень и коэффициенты в формате оператора вывода.">operator&gt;&gt;(std::istream&amp;, Polynomial&amp;)</a> </dd></dl>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Конструктор(ы)</h2>
+<a id="a47b11ba01f414c5f344139fedada2fcf" name="a47b11ba01f414c5f344139fedada2fcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47b11ba01f414c5f344139fedada2fcf">&#9670;&#160;</a></span>Polynomial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Polynomial::Polynomial </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>degree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; double &gt;</td>          <td class="paramname"><span class="paramname"><em>coefficients</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Создаёт многочлен по заданной степени и массиву коэффициентов. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">degree</td><td>Заявленная степень до удаления старших нулей. </td></tr>
+    <tr><td class="paramname">coefficients</td><td>Массив из degree + 1 элементов. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Исключения</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>При несоответствии размера. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Методы</h2>
+<a id="af04eabb0fb25d8b6997de210e5ffdae1" name="af04eabb0fb25d8b6997de210e5ffdae1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af04eabb0fb25d8b6997de210e5ffdae1">&#9670;&#160;</a></span>degree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t Polynomial::degree </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Возвращает</dt><dd>Степень после удаления старших нулей. </dd></dl>
+
+</div>
+</div>
+<a id="aa0910e247308884f2d9a2411a8e74fe7" name="aa0910e247308884f2d9a2411a8e74fe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0910e247308884f2d9a2411a8e74fe7">&#9670;&#160;</a></span>operator/=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_polynomial.html">Polynomial</a> &amp; Polynomial::operator/= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_polynomial.html">Polynomial</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Записывает частное от деления уголком, отбрасывая остаток. </p>
+<dl class="exception"><dt>Исключения</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::domain_error</td><td>При делении на нулевой многочлен. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aba006a00b3bdfdfe4cf2486efbc39b74" name="aba006a00b3bdfdfe4cf2486efbc39b74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba006a00b3bdfdfe4cf2486efbc39b74">&#9670;&#160;</a></span>operator[]()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Polynomial::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>power</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Возвращает</dt><dd>Коэффициент при x в степени power, включая ноль выше степени. </dd></dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li><a class="el" href="_polynomial_8h_source.html">Polynomial.h</a></li>
+<li><b>Polynomial.cpp</b></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="class_polynomial.html">Polynomial</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.18.0 </li>
+  </ul>
+</div>
+</body>
+</html>
